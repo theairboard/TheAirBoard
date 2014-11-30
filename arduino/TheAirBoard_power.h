@@ -24,7 +24,7 @@ class TheAirBoard_power
 {
   public:
     TheAirBoard_power(void);
-	void powerDown(void);
+	void powerDown(int baud);
 	void setWatchdog(int period);
 	float batteryChk(void);
 };

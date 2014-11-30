@@ -27,7 +27,7 @@ TheAirBoard_power::TheAirBoard_power(void) {
  * ATmega328P deep sleep = 120 nA
  * regulators quiescent currents = 30 nA
  *******************************************************************************/
-void TheAirBoard_power::powerDown(void) {
+void TheAirBoard_power::powerDown(int baud) {
   Serial.end();
   digitalWrite(RX, LOW);           // reset internal pull-up serial link
   ADCSRA &= B01111111;             // disable ADC
@@ -41,7 +41,7 @@ void TheAirBoard_power::powerDown(void) {
   /****************************************************************************/
   power_all_enable();
   ADCSRA |= B10000000;             // enable ADC
-  Serial.begin(57600);
+  Serial.begin(baud);
 }
 
 /*******************************************************************************
