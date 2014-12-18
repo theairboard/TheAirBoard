@@ -14,8 +14,9 @@ Description
 -----------
 ![The AirBoard pinout](http://www.theairboard.cc/wp-content/uploads/2014/12/pinout.jpg)
 
-Tomorrow, 50 billion connected objects will fill our everyday lives.
-Today, Internet-of-Things pioneers need easy-to-use and versatile, yet powerful tools to help them shape the future.
+Tomorrow, 50 billion connected objects will fill our everyday lives. Today, Internet-of-Things pioneers need easy-to-use and versatile, yet powerful tools to help them shape the future.
+
+The AirBoard is an Open-Source, compact, wireless and ultra power efficient development platform designed to <b>learn</b>, <b>sketch</b> and <b>deploy</b> your prototype out in the field.
 
 We are Creative Thinking professionals and Corporate Hackers, driving the Open Innovation cultural change for major companies.
 Our mission is to provide tools and processes to accelerate the prototyping and deployment of your next billion dollar idea, with a seamless experience from novice to expert.
