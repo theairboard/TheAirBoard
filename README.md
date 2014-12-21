@@ -12,7 +12,7 @@ The AirBoard is a thumb-size, Arduino compatible, wireless, ubiquitous computer 
 
 Description
 -----------
-![The AirBoard pinout](http://www.theairboard.cc/wp-content/uploads/2014/12/pinout.jpg)
+![The AirBoard pinout](http://www.theairboard.cc/wp-content/uploads/2014/12/theairboard_960x540.jpg)
 
 Tomorrow, 50 billion connected objects will fill our everyday lives. Today, Internet-of-Things pioneers need easy-to-use and versatile, yet powerful tools to help them shape the future.
 
