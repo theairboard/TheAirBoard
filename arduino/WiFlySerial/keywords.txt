@@ -1,0 +1,97 @@
+#######################################
+# Syntax Coloring Map for WiFlySerial
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+WiFlySerial	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+SendCommand	KEYWORD2
+begin	KEYWORD2
+join	KEYWORD2
+leave	KEYWORD2
+startCommandMode	KEYWORD2
+exitCommandMode	KEYWORD2
+reboot	KEYWORD2
+openConnection	KEYWORD2
+closeConnection	KEYWORD2
+getLibraryVersion	KEYWORD2
+isConnected	KEYWORD2
+isDHCP	KEYWORD2
+getSSID	KEYWORD2
+getDeviceID	KEYWORD2
+getNetMask	KEYWORD2
+getGateway	KEYWORD2
+getDNS	KEYWORD2
+getMAC	KEYWORD2
+getNTP	KEYWORD2
+getRSSI	KEYWORD2
+getBattery	KEYWORD2
+uart	KEYWORD2
+setSSID	KEYWORD2
+setPassphrase	KEYWORD2
+setDeviceID	KEYWORD2
+setNTP	KEYWORD2
+setIP	KEYWORD2
+setNetMask	KEYWORD2
+setGateway	KEYWORD2
+setDNS	KEYWORD2
+setUseDHCP	KEYWORD2
+SendInquiry	KEYWORD2
+ScanForPattern	KEYWORD2
+ExtractDetail	KEYWORD2
+CaptureUntilPrompt	KEYWORD2
+getDeviceStatus	KEYWORD2
+isAssociated	KEYWORD2
+isTCPConnected	KEYWORD2
+isAuthenticated	KEYWORD2
+isifUp	KEYWORD2
+getChannel	KEYWORD2
+isDNSfound	KEYWORD2
+isDNScontacted	KEYWORD2
+isInCommandMode	KEYWORD2
+isConnectionOpen	KEYWORD2
+setChannel	KEYWORD2
+setLocalPort	KEYWORD2
+setRemotePort	KEYWORD2
+setProtocol	KEYWORD2
+setAuthMode	KEYWORD2
+setJoinMode	KEYWORD2       
+setDHCPMode	KEYWORD2
+join	KEYWORD2
+leave	KEYWORD2
+startCommandMode	KEYWORD2
+exitCommandMode 	KEYWORD2     
+reboot	KEYWORD2
+openConnection	KEYWORD2
+closeConnection	KEYWORD2
+serveConnection	KEYWORD2
+SendInquiry	KEYWORD2
+SendInquirySimple	KEYWORD2
+SendCommand	KEYWORD2
+SendCommandSimple	KEYWORD2
+ScanForPattern	KEYWORD2
+ExtractDetail	KEYWORD2
+ExtractDetailIdx	KEYWORD2
+CaptureUntilPrompt	KEYWORD2
+setDebugChannel	KEYWORD2
+getDebugChannel	KEYWORD2
+clearDebugChannel	KEYWORD2
+
+
+
+    
+#######################################
+# Constants (LITERAL1)
+#######################################
+INDICATOR_BUFFER_SIZE	LITERAL1
+RESPONSE_BUFFER_SIZE	LITERAL1
+COMMAND_BUFFER_SIZE	LITERAL1
+SMALL_COMMAND_BUFFER_SIZE	LITERAL1
+
