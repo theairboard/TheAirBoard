@@ -3,7 +3,7 @@ PushingBox notification program
 - join your local WiFi network
 - push a notification to http://www.pushingbox.com every minute
 - send the duration of the last transaction
-- require the WiFly RN-XV (RN-171) WiFi shield
+- require the WiFly RN-XV (RN-171) WiFi shield, firmware version 2.38.3
 - IMPORTANT: WiFly baudrate must first be set to 9600
 
 The AirBoard is a thumb-size, Arduino-compatible, wireless,

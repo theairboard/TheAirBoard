@@ -27,7 +27,7 @@ void setup() {
 void loop() {
   if(millis() - time > 1000) {
     time = millis();
-    digitalWrite(GREEN, flag);
+    analogWrite(GREEN, flag);
     flag ^= 1;
     Serial.println(i++);
   }
