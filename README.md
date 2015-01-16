@@ -1,6 +1,6 @@
 TheAirBoard: Sketch Internet-of-Things, fast!
 =============================================
-[www.theairboard.cc](http://www.theairboard.cc)
+[ks.theairboard.cc](http://ks.theairboard.cc)
 <br>
 [@theairboard](https://twitter.com/theairboard)
 
