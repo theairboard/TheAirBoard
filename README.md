@@ -18,5 +18,5 @@ Tomorrow, 50 billion connected objects will fill our everyday lives. Today, Inte
 
 The AirBoard is an Open-Source, compact, wireless and ultra power efficient development platform designed to <b>learn</b>, <b>sketch</b> and <b>deploy</b> your prototype out in the field.
 
-We are Creative Thinking professionals and Corporate Hackers, driving the Open Innovation cultural change for major companies.
+We are Creative Thinking professionals, driving the Open Innovation cultural change for major companies.
 Our mission is to provide tools and processes to accelerate the prototyping and deployment of your next billion dollar idea, with a seamless experience from novice to expert.
