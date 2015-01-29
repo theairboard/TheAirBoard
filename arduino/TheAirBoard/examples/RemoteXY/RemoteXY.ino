@@ -1,6 +1,6 @@
 /*
 RemoteXY test program
-- download Android app: http://remotexy.com/en/download/
+- download Android app for Bluetooth 2.1: http://remotexy.com/en/download/
 - switch GREEN LED ON on "click me" button press
 
 The AirBoard is a thumb-size, Arduino-compatible, wireless,
