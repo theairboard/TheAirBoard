@@ -13,7 +13,7 @@ Bluetooth 2.1 operation:
 
 XBee operation:
 - turn on the micro switch just before uploading to make sure the RF power is on (5 seconds timeout)
-- average power consumption with XBee shield: 33.5 µA
+- average power consumption with XBee shield: 33.3 µA
 - estimated: over 6 months battery life with XBee on a 155 mAh battery
 
 The AirBoard is a thumb-size, Arduino-compatible, wireless,
