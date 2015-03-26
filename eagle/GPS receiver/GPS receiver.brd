@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -20,11 +20,11 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -134,9 +134,9 @@
 <board>
 <plain>
 <text x="21.5" y="28" size="1.4224" layer="26" rot="MR0" align="center">OriginGPS ORG1411</text>
-<text x="29.5" y="28" size="0.6096" layer="21" rot="R90">*UART</text>
-<text x="29.5" y="34.5" size="0.6096" layer="21" rot="R90">I2C</text>
-<text x="32.5" y="34" size="0.6096" layer="21" rot="R90">*Default
+<text x="31.278" y="27.238" size="0.8128" layer="21" rot="R90">*UART</text>
+<text x="30.516" y="34.754" size="0.8128" layer="21" rot="R90">I2C</text>
+<text x="33.516" y="33.238" size="0.8128" layer="21" rot="R90">*Default
 Interface</text>
 </plain>
 <libraries>
@@ -33956,7 +33956,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </libraries>
 <attributes>
 <attribute name="DESIGNER" value="theairboard.cc"/>
-<attribute name="REV" value="1.0"/>
+<attribute name="REV" value="2.0"/>
 <attribute name="SENSOR" value="GPS receiver"/>
 </attributes>
 <variantdefs>
@@ -34145,8 +34145,9 @@ design rules under a new name.</description>
 <attribute name="PART_NUMBER" value="77315-818-36LF " x="-15.24" y="214.63" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C1" library="SparkFun" package="0603-CAP" value="0.1uF" x="15.986" y="30.718" smashed="yes" rot="R270">
-<attribute name="NAME" x="13.998" y="31.857" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="14.252" y="31.349" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="14.843" y="31.734" size="0.4064" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MOUSER#" value="80-C0805C104K3R" x="15.986" y="30.718" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="FRAME1" library="theairboard" package="BOARD_FRAME" value="SCH_FRAME" x="-67.31" y="-58.42"/>
 <element name="U2" library="theairboard" package="ORG1411" value="ORG1411" x="18.145" y="35.298" smashed="yes">
@@ -34154,27 +34155,37 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="OriginGPS" x="41.005" y="-161.552" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="" x="41.005" y="-161.552" size="1.778" layer="27" display="off"/>
 <attribute name="PART_NUMBER" value="ORG1411-PM04" x="41.005" y="-161.552" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="19.045" y="26.273" size="1.27" layer="25"/>
+<attribute name="VALUE" x="20.315" y="26.527" size="0.8128" layer="25"/>
 </element>
-<element name="C2" library="hidnSeek" package="PAS311-VA6R" value="0.03F" x="10.5" y="36.5" smashed="yes"/>
-<element name="D1" library="diode" package="SOT23" value="" x="13" y="28" smashed="yes">
-<attribute name="NAME" x="16.345" y="26.595" size="1.27" layer="25" rot="R90"/>
+<element name="C2" library="hidnSeek" package="PAS311-VA6R" value="0.03F" x="10.5" y="36.5" smashed="yes">
+<attribute name="MOUSER#" value="963-PAS311HR-VA6R" x="10.5" y="36.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D1" library="diode" package="SOT23" value="SB05W05C" x="13" y="28" smashed="yes">
+<attribute name="NAME" x="12.013" y="29.807" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="11.095" y="24.825" size="1.27" layer="27"/>
+<attribute name="MOUSER#" value="863-SB05W05C-TB-E" x="13" y="28" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R1" library="rcl" package="R0805" value="56" x="12" y="31.5" smashed="yes">
-<attribute name="NAME" x="11.365" y="32.77" size="1.27" layer="25"/>
+<attribute name="NAME" x="11.619" y="32.77" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="11.365" y="28.96" size="1.27" layer="27" display="off"/>
+<attribute name="MOUSER#" value="667-ERJ-P06J560V" x="12" y="31.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R2" library="rcl" package="R0402" value="1K" x="31.5" y="32" smashed="yes" rot="R270">
-<attribute name="NAME" x="32.385" y="33.385" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="29.595" y="32.635" size="1.27" layer="27" rot="R270" display="off"/>
+<element name="R2" library="rcl" package="R0402" value="1K" x="32.5" y="32" smashed="yes" rot="R270">
+<attribute name="NAME" x="32.623" y="30.591" size="0.8128" layer="25" rot="R270"/>
+<attribute name="VALUE" x="30.595" y="32.635" size="1.27" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER#" value="754-RR0510P-102D" x="32.5" y="32" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="JP2" library="SparkFun-Retired" package="SJ_3" value="JUMPER-3SMD" x="29.5" y="32.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="28.73" y="31.98" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="29.5" y="32.3999" size="0.02" layer="27" rot="R90"/>
-<attribute name="VALUE" x="31.405" y="31.23" size="0.4064" layer="27" rot="R90" display="off"/>
+<element name="JP2" library="SparkFun-Retired" package="SJ_3" value="JUMPER-3SMD" x="30.5" y="32.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="29.73" y="31.98" size="0.8128" layer="25" rot="R90" display="off"/>
+<attribute name="VALUE" x="30.5" y="32.3999" size="0.02" layer="27" rot="R90"/>
+<attribute name="VALUE" x="32.405" y="31.23" size="0.4064" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$2" library="theairboard" package="LAYOUT25X25WO" value="" x="9" y="14"/>
+<element name="R3" library="rcl" package="R0402" value="1K" x="29.718" y="28.702" smashed="yes" rot="R90">
+<attribute name="MOUSER#" value="754-RR0510P-102D" x="29.718" y="28.702" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="29.083" y="28.067" size="0.8128" layer="25" rot="R90"/>
+<attribute name="VALUE" x="31.623" y="28.067" size="1.27" layer="27" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="1PPS">
@@ -34224,8 +34235,8 @@ design rules under a new name.</description>
 <signal name="I2C">
 <contactref element="U2" pad="9"/>
 <contactref element="JP2" pad="3"/>
-<wire x1="27" y1="34" x2="29" y2="34" width="0.2032" layer="1"/>
-<wire x1="29" y1="34" x2="29.5" y2="33.389" width="0.2032" layer="1"/>
+<wire x1="27" y1="34" x2="30.25" y2="34" width="0.2032" layer="1"/>
+<wire x1="30.25" y1="34" x2="30.5" y2="33.389" width="0.2032" layer="1"/>
 <wire x1="27" y1="34" x2="27.115" y2="34.028" width="0.2032" layer="1"/>
 </signal>
 <signal name="ONOFF">
@@ -34260,38 +34271,30 @@ design rules under a new name.</description>
 <wire x1="18.363" y1="30" x2="20" y2="30" width="0.254" layer="1"/>
 <wire x1="20" y1="30" x2="22.59" y2="32.09" width="0.254" layer="1"/>
 <wire x1="22.59" y1="32.09" x2="22.59" y2="32.758" width="0.254" layer="1"/>
-<via x="30.5" y="29.5" extent="1-16" drill="0.508"/>
+<via x="18.25" y="28.5" extent="1-16" drill="0.508"/>
 <via x="24.5" y="28.75" extent="1-16" drill="0.508"/>
 <via x="20.75" y="28.75" extent="1-16" drill="0.508"/>
 <via x="24.5" y="36" extent="1-16" drill="0.508"/>
 <via x="20.5" y="36.25" extent="1-16" drill="0.508"/>
-</signal>
-<signal name="VCC">
-<contactref element="JP1" pad="4"/>
-<contactref element="D1" pad="2"/>
-<wire x1="17" y1="26.75" x2="14" y2="26.75" width="0.2032" layer="1"/>
-<wire x1="17.75" y1="26" x2="17" y2="26.75" width="0.2032" layer="1"/>
-<wire x1="17.75" y1="24.25" x2="17.75" y2="26" width="0.2032" layer="1"/>
-<wire x1="14" y1="26.75" x2="13.95" y2="26.9" width="0.2032" layer="1"/>
-<wire x1="17.75" y1="24.25" x2="17.78" y2="24.13" width="0.2032" layer="1"/>
+<via x="29.326" y="36.762" extent="1-16" drill="0.508"/>
 </signal>
 <signal name="SER">
 <contactref element="U2" pad="7"/>
 <contactref element="JP2" pad="1"/>
-<wire x1="27.5" y1="31.5" x2="29.5" y2="31.5" width="0.2032" layer="1"/>
-<wire x1="29.5" y1="31.5" x2="29.5" y2="31.611" width="0.2032" layer="1"/>
+<wire x1="27.5" y1="31.5" x2="30.262" y2="31.5" width="0.2032" layer="1"/>
+<wire x1="30.262" y1="31.5" x2="30.5" y2="31.611" width="0.2032" layer="1"/>
 <wire x1="27.5" y1="31.5" x2="27.115" y2="31.488" width="0.2032" layer="1"/>
 <contactref element="JP2" pad="2"/>
 <contactref element="R2" pad="1"/>
-<wire x1="31.5" y1="32.65" x2="31.35" y2="32.5" width="0.1778" layer="1"/>
-<wire x1="31.35" y1="32.5" x2="29.5" y2="32.5" width="0.254" layer="1"/>
-<wire x1="29.5" y1="32.5" x2="29.5" y2="31.611" width="0.1778" layer="1"/>
+<wire x1="32.35" y1="32.5" x2="30.5" y2="32.5" width="0.254" layer="1"/>
+<wire x1="30.5" y1="32.5" x2="30.5" y2="31.611" width="0.1778" layer="1"/>
+<wire x1="32.35" y1="32.5" x2="32.5" y2="32.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 </signal>
 <signal name="N$2">
 </signal>
-<signal name="N$3">
+<signal name="VCC">
 <contactref element="C1" pad="1"/>
 <contactref element="U2" pad="4"/>
 <contactref element="R1" pad="2"/>
@@ -34302,14 +34305,14 @@ design rules under a new name.</description>
 <wire x1="16" y1="31.5" x2="18" y2="31.5" width="0.2032" layer="1"/>
 <wire x1="18" y1="31.5" x2="18.145" y2="31.488" width="0.2032" layer="1"/>
 <wire x1="16" y1="31.5" x2="15.986" y2="31.568" width="0.2032" layer="1"/>
-<wire x1="18.25" y1="26.75" x2="31" y2="26.75" width="0.2032" layer="1"/>
-<wire x1="31" y1="26.75" x2="31.5" y2="27.25" width="0.2032" layer="1"/>
-<wire x1="31.5" y1="27.25" x2="31.5" y2="31.35" width="0.2032" layer="1"/>
+<wire x1="18.25" y1="26.75" x2="32" y2="26.75" width="0.2032" layer="1"/>
+<wire x1="32" y1="26.75" x2="32.5" y2="27.25" width="0.2032" layer="1"/>
+<wire x1="32.5" y1="27.25" x2="32.5" y2="31.35" width="0.2032" layer="1"/>
 <wire x1="17" y1="28" x2="18.25" y2="26.75" width="0.2032" layer="1"/>
 <wire x1="13" y1="29.1" x2="13" y2="28.5" width="0.2032" layer="1"/>
 <wire x1="13" y1="28.5" x2="13.5" y2="28" width="0.2032" layer="1"/>
 <wire x1="13.5" y1="28" x2="17" y2="28" width="0.2032" layer="1"/>
-<wire x1="31.5" y1="31.5" x2="31.5" y2="31.35" width="0.2032" layer="1"/>
+<wire x1="32.5" y1="31.5" x2="32.5" y2="31.35" width="0.2032" layer="1"/>
 <wire x1="13" y1="29.5" x2="13" y2="29.1" width="0.2032" layer="1"/>
 <wire x1="13" y1="29.1" x2="13" y2="31.5" width="0.2032" layer="1"/>
 </signal>
@@ -34325,11 +34328,45 @@ design rules under a new name.</description>
 <wire x1="11" y1="32" x2="10.5" y2="32" width="0.2032" layer="1"/>
 <wire x1="11" y1="32" x2="11.05" y2="31.5" width="0.2032" layer="1"/>
 </signal>
+<signal name="+3V3">
+<contactref element="D1" pad="2"/>
+<contactref element="JP1" pad="4"/>
+<wire x1="13.95" y1="26.9" x2="17.1" y2="26.9" width="0.4064" layer="1"/>
+<wire x1="17.1" y1="26.9" x2="17.75" y2="26.25" width="0.4064" layer="1"/>
+<wire x1="17.75" y1="26.25" x2="17.75" y2="24.16" width="0.4064" layer="1"/>
+<wire x1="17.75" y1="24.16" x2="17.78" y2="24.13" width="0.4064" layer="1"/>
+<contactref element="R3" pad="1"/>
+<via x="31.028" y="28.238" extent="1-16" drill="0.508"/>
+<wire x1="31.028" y1="28.238" x2="31.75" y2="27.559" width="0.254" layer="16"/>
+<wire x1="31.75" y1="27.559" x2="31.75" y2="22.225" width="0.254" layer="16"/>
+<wire x1="31.75" y1="22.225" x2="31.25" y2="21.75" width="0.254" layer="16"/>
+<wire x1="31.25" y1="21.75" x2="18.25" y2="21.75" width="0.254" layer="16"/>
+<wire x1="18.25" y1="21.75" x2="17.75" y2="22.25" width="0.254" layer="16"/>
+<wire x1="17.75" y1="22.25" x2="17.75" y2="24.1" width="0.254" layer="16"/>
+<wire x1="17.75" y1="24.1" x2="17.78" y2="24.13" width="0.254" layer="16"/>
+<wire x1="29.718" y1="28.052" x2="30.706" y2="28.052" width="0.254" layer="1"/>
+<wire x1="30.706" y1="28.052" x2="31.028" y2="28.238" width="0.254" layer="1"/>
+</signal>
+<signal name="N$3">
+<contactref element="R3" pad="2"/>
+<contactref element="U2" pad="8"/>
+<wire x1="27.115" y1="32.758" x2="28.694" y2="32.758" width="0.254" layer="1"/>
+<wire x1="28.694" y1="32.758" x2="28.702" y2="32.766" width="0.254" layer="1"/>
+<via x="28.702" y="32.766" extent="1-16" drill="0.508"/>
+<wire x1="28.702" y1="32.766" x2="28.702" y2="30.48" width="0.254" layer="16"/>
+<via x="28.702" y="30.48" extent="1-16" drill="0.508"/>
+<wire x1="28.702" y1="30.48" x2="29.464" y2="30.48" width="0.254" layer="1"/>
+<wire x1="29.464" y1="30.48" x2="29.718" y2="30.226" width="0.254" layer="1"/>
+<wire x1="29.718" y1="30.226" x2="29.718" y2="29.352" width="0.254" layer="1"/>
+</signal>
 </signals>
 <errors>
-<approved hash="3,1,2fa2a59ca32e98a2"/>
-<approved hash="3,1,8300e338e2f082c8"/>
+<approved hash="3,1,531f232722ee52d6"/>
 <approved hash="4,1,60e93b153bb65f0a"/>
+<approved hash="19,1,870a12fe0e1f9beb"/>
+<approved hash="19,1,e2b698429ccce638"/>
+<approved hash="19,1,7cb229462dc47830"/>
+<approved hash="19,1,662433d02e7f7b8b"/>
 <approved hash="4,16,60e93b153bb65f0a"/>
 </errors>
 </board>
