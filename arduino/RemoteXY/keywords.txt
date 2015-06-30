@@ -1,0 +1,11 @@
+######################################
+#  Syntax Coloring Map For RemoteXY  #
+######################################
+
+RemoteXY	KEYWORD1
+RemoteXY_Init	KEYWORD2
+RemoteXY_Handler	KEYWORD2
+REMOTEXY_MODE__SOFTWARESERIAL	LITERAL1	Constants
+REMOTEXY_SERIAL_RX	LITERAL1	Constants
+REMOTEXY_SERIAL_TX	LITERAL1	Constants
+REMOTEXY_SERIAL_SPEED	LITERAL1	Constants
