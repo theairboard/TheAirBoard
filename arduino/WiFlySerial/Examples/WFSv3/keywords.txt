@@ -1,0 +1,56 @@
+#######################################
+# Syntax Coloring Map for WiFlySerial
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+WiFlySerial	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+SendCommand	KEYWORD2
+begin	KEYWORD2
+join	KEYWORD2
+leave	KEYWORD2
+startCommandMode	KEYWORD2
+exitCommandMode	KEYWORD2
+reboot	KEYWORD2
+openConnection	KEYWORD2
+closeConnection	KEYWORD2
+GetLibraryVersion	KEYWORD2
+isConnected	KEYWORD2
+isDHCP	KEYWORD2
+GetSSID	KEYWORD2
+GetDeviceID	KEYWORD2
+GetNetMask	KEYWORD2
+GetGateway	KEYWORD2
+GetDNS	KEYWORD2
+GetMAC	KEYWORD2
+GetNTP	KEYWORD2
+GetRSSI	KEYWORD2
+GetBattery	KEYWORD2
+uart	KEYWORD2
+setSSID	KEYWORD2
+setPassphrase	KEYWORD2
+setDeviceID	KEYWORD2
+setNTP	KEYWORD2
+setIP	KEYWORD2
+setNetMask	KEYWORD2
+setGateway	KEYWORD2
+setDNS	KEYWORD2
+setUseDHCP	KEYWORD2
+SendInquiry	KEYWORD2
+ScanForPattern	KEYWORD2
+ExtractDetail	KEYWORD2
+CaptureUntilPrompt	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+INDICATOR_BUFFER_SIZE	LITERAL1
+RESPONSE_BUFFER_SIZE	LITERAL1
+COMMAND_BUFFER_SIZE	LITERAL1
+

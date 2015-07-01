@@ -21,18 +21,17 @@ The AirBoard is a thumb-size, Arduino-compatible, wireless, low-power,
 ubiquitous computer designed to sketch Internet-of-Things, fast!
 Visit http://www.theairboard.cc
 Upload your first sketch in seconds from https://codebender.cc?referral_code=Ub56L825Qb
-Check readme.txt and license.txt for more information.
+Check README.txt and license.txt for more information.
 All text above must be included in any redistribution.
 */
 #define BITIN    A5                   // sketchBit input bit
 #define BITOUT   10                   // sketchBit output bit
 #define RED       9                   // The Airboard RED LED
 #define _5V      A6                   // The Airboard 5V voltage indicator
-#define BAUD   9600                   // communication speed: 57600 for XBee, 9600 otherwise
 
 // the setup routine runs once when you switch on the board:
 void setup() {
-  Serial.begin(BAUD);                 // initialize serial communication
+  Serial.begin(9600);                 // initialize serial communication
 }
 
 // the loop routine runs over and over again forever:

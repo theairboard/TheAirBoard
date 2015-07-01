@@ -1,6 +1,6 @@
 /* RemoteXY_Serial.cpp 
    A RemoteXY Library - Remote device control
-   version 1.0.4   
+   version 1.1.0   
    
    ===========================================================
    For use RemoteXY library visit website http://remotexy.com

@@ -1,6 +1,6 @@
 /* RemoteXY.h 
    A RemoteXY Library - Remote device control
-   version 1.0.4   
+   version 1.1.0   
    
    ===========================================================
    For use RemoteXY library visit website http://remotexy.com
@@ -12,6 +12,7 @@
 
 #ifndef _REMOTEXY_H_
 #define _REMOTEXY_H_
+
 
 #if defined(REMOTEXY_MODE__SOFTWARESERIAL)
 

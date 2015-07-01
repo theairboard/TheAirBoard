@@ -1,6 +1,6 @@
 /* RemoteXY_Serial.h 
    A RemoteXY Library - Remote device control
-   version 1.0.4   
+   version 1.1.0   
    
    ===========================================================
    For use RemoteXY library visit website http://remotexy.com
@@ -26,7 +26,7 @@ private:
   uint8_t command; 
   uint8_t crc; 
   uint32_t timeout; 
-  
+  uint8_t timeout_try; 
 public:
   RemoteXY_Serial (void * _conf, void * _var);
   void Handler ();

@@ -21,7 +21,7 @@ The AirBoard is a thumb-size, Arduino-compatible, wireless, low-power,
 ubiquitous computer designed to sketch Internet-of-Things, fast!
 Visit http://www.theairboard.cc
 Upload your first sketch in seconds from https://codebender.cc?referral_code=Ub56L825Qb
-Check readme.txt and license.txt for more information.
+Check README.txt and license.txt for more information.
 All text above must be included in any redistribution.
 */
 
@@ -31,12 +31,12 @@ All text above must be included in any redistribution.
 #define REMOTEXY_SERIAL_SPEED 9600    // RemoteXY serial communication at 9600 bits per second
 #define BITIN   A5                    // sketchBit input bit
 #define BITOUT  10                    // sketchBit output bit
-#define RED      9                    // The Airboard RED LED
 #define _5V     A6                    // The Airboard 5V voltage indicator
 
-// Place /RemoteXY folder in your Preferences>Sketchbook location /libraries folder.
+// Place /TheAirBoard and /RemoteXY folders in your Preferences>Sketchbook location /libraries folder.
 // You may need to create the /libraries subfolder if it is your first library.
 // Restart the Arduino IDE.
+#include <TheAirBoard.h>
 #include <RemoteXY.h>
 #include <SoftwareSerial.h>
 

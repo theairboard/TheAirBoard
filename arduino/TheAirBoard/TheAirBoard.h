@@ -5,7 +5,7 @@ The AirBoard is a thumb-size, Arduino-compatible, wireless, low-power,
 ubiquitous computer designed to sketch Internet-of-Things, fast!
 Visit http://www.theairboard.cc
 Upload your first sketch in seconds from https://codebender.cc?referral_code=Ub56L825Qb
-Check readme.txt and license.txt for more information.
+Check README.txt and license.txt for more information.
 All text above must be included in any redistribution.
 *******************************************************************************/
  
