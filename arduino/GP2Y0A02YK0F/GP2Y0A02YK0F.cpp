@@ -1,8 +1,7 @@
 /*******************************************************************************
-This is the library for the SHARP GP2Y0A02YK0F analog infrared proximity sensor.
-Calibration was performed from 5V as well as 3V3 power supplies.
+This is the SHARP GP2Y0A02YK0F analog infrared proximity sensor library.
 
-Check readme.txt and license.txt for more information.
+Check license.txt for more information.
 All text above must be included in any redistribution.
 *******************************************************************************/
 

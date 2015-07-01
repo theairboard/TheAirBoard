@@ -27,7 +27,7 @@ char buffer[7];
 // the setup routine runs once when you switch on the board:
 void setup() {
   pinMode(RED, OUTPUT);                    // initialize the RED LED pin as an output
-  Serial.begin(9600);                      // initialize serial communication
+  Serial.begin(9600);                      // initialize serial communication at 9600 bits per second
 }
 
 // the loop routine runs over and over again forever:

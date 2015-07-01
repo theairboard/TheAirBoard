@@ -31,7 +31,7 @@ All text above must be included in any redistribution.
 
 // the setup routine runs once when you switch on the board:
 void setup() {
-  Serial.begin(9600);                 // initialize serial communication
+  Serial.begin(9600);                 // initialize serial communication at 9600 bits per second
 }
 
 // the loop routine runs over and over again forever:

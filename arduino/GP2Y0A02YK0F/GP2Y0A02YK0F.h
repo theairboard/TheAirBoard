@@ -1,7 +1,7 @@
 /*******************************************************************************
-This is the library for the SHARP GP2Y0A02YK0F analog infrared proximity sensor.
+This is the SHARP GP2Y0A02YK0F analog infrared proximity sensor library.
 
-Check readme.txt and license.txt for more information.
+Check license.txt for more information.
 All text above must be included in any redistribution.
 *******************************************************************************/
 
@@ -19,7 +19,7 @@ class GP2Y0A02YK0F
 {
   public:
     GP2Y0A02YK0F(int pin);
-    byte Ranging(boolean supply, boolean unit);
+    byte Ranging(boolean supply, boolean unit); //supply = _5V or _3V3, unit = CM or INCH
 
   private:
     int _pin;
