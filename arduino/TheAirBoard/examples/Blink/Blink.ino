@@ -21,7 +21,7 @@ void setup() {
 
 // the loop routine runs over and over again forever:
 void loop() {
-  analogWrite(GREEN, 1);       // turn the LED on and adjust the LED brightness between 1 and 255
+  analogWrite(GREEN, 255);     // turn the LED on and adjust the LED brightness between 1 and 255
   delay(1000);                 // wait for a second
   digitalWrite(GREEN, 0);      // turn the LED off
   delay(1000);                 // wait for a second
