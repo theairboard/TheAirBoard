@@ -31,12 +31,13 @@ All text above must be included in any redistribution.
 
 // the setup routine runs once when you switch on the board:
 void setup() {
+  pinMode(RED, OUTPUT);               // initialize the digital pin as an output
   Serial.begin(9600);                 // initialize serial communication at 9600 bits per second
 }
 
 // the loop routine runs over and over again forever:
 void loop() {
-  analogWrite(RED, analogRead(_5V) > 512 ? true:false); // set RED LED when POWER BIT is connected
+  digitalWrite(RED, analogRead(_5V) > 512 ? true:false); // set RED LED when POWER BIT is connected
   analogWrite(BITOUT, map(constrain(analogRead(BITIN), 0, 780), 0, 780, 0, 255)); // redirect the input bit to the output bit
   Serial.println(analogRead(BITIN));
   delay(500);                         // wait for 500 milliseconds
