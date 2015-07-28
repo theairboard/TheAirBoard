@@ -38,7 +38,7 @@ void setup() {
 // the loop routine runs over and over again forever:
 void loop() {
   digitalWrite(RED, analogRead(_5V) > 512 ? true:false); // set RED LED when POWER BIT is connected
-  analogWrite(BITOUT, map(constrain(analogRead(BITIN), 0, 780), 0, 780, 0, 255)); // redirect the input bit to the output bit
+  analogWrite(BITOUT, map(constrain(analogRead(BITIN), 0, 700), 0, 700, 0, 255)); // redirect the input bit to the output bit
   Serial.println(analogRead(BITIN));
   delay(500);                         // wait for 500 milliseconds
 }
