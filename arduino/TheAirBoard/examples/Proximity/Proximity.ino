@@ -36,6 +36,6 @@ void loop() {
     distance = board.Ranging(_3V3, CM);    // compute distance (supply = _5V or _3V3, unit = CM or INCH)
     sprintf(buffer,"%3d cm", distance);    // display object distance
     Serial.println(buffer);
-    analogWrite(RED, distance<50?1:0);     // turn on RED LED when under 50 cm
+    digitalWrite(RED, distance<50?1:0);    // turn on RED LED when under 50 cm
     delay(500);                            // wait for 500 milliseconds
 }
