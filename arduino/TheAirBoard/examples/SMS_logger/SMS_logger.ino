@@ -24,7 +24,7 @@ Check README.txt and license.txt for more information.
 All text above must be included in any redistribution.
 */
 
-#define CELL    "\"Your_destination_cell_number_here\""
+#define CELL    "Your_cell_phone_number_here"
 #define GPRSBEE  16                   // GPRSbee wakeup pin
 #define BLUE	  6                   // The Airboard BLUE LED
 
@@ -43,8 +43,9 @@ void setup() {
 // the loop routine runs over and over again forever:
 void loop() {
   digitalWrite(BLUE, 1);            // set communication indicator
-  Serial.print("AT+CMGS=");         // set destination cell number
-  Serial.println(CELL);
+  Serial.print("AT+CMGS=\"");         // set destination cell number
+  Serial.print(CELL);
+  Serial.println("\"");
   delay(30);
   Serial.print((int)(100.0-100.0*analogRead(A4)/1024)); // acquire analog data
   Serial.println("\% luminosity\nSent from #theairboard");
