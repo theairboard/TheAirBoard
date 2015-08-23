@@ -3,6 +3,7 @@ Smartphone-controlled LED test program
 - Test 7 colors of the RGB LED at full power
 
 1. Install tAB-COLOR.apk on your Android smartphone
+   http://github.com/theairboard/TheAirBoard/raw/master/arduino/TheAirBoard/examples/Color/tAB-COLOR.apk
 2. Search and connect "Bluno" device
 
 The AirBoard is a thumb-size, Arduino-compatible, wireless, low-power,
