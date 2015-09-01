@@ -1,5 +1,4 @@
 /*
-WiFly_logger
 WiFi data logger based on the WiFly RN-XV (RN171) WiFi shield:
 - plug the light sensor between the A4 and GND pins
 - repeatedly read the light sensor from analog pin A4

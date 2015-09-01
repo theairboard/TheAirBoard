@@ -1,5 +1,5 @@
 /*
-BrushBot direct control
+BrushBot direct control with RemoteXY
 - use the right/left arrow keys to pilot the BrushBot/Airship
 - order and populate the dual motor drive PCB for brushbot: http://oshpark.com/shared_projects/fyhMVHcY
   or directly connect micro motors to PINs 10, 11 and GND for airship

@@ -1,5 +1,5 @@
 /*
-Echo
+Simple serial echo program
 - blink the green LED every second
 - display time since power ON in seconds
 - echo characters typed on Serial Monitor

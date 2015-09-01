@@ -1,5 +1,5 @@
 /*
-Smartphone-controlled LED test program
+Smartphone-controlled RGB LED test program
 - Test 7 colors of the RGB LED at full power
 
 On Bluetooth 4.0 BLE Android devices:

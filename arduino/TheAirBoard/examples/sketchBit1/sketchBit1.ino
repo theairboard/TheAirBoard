@@ -1,5 +1,6 @@
 /*
-sketchBit
+sketchBit transparent mode
+- directly copy inpiut bit to output bit
 - the sketchBit http://littlebits.cc/bitlab/bits/sketchbit is an input/output bit adapter
   that allows to control your littleBits modules from The AirBoard.
 - combine the flexibility of The AirBoard broad range of wireless shields
@@ -12,10 +13,6 @@ sketchBit
   power bit http://littlebits.cc/bits/littlebits-power which drives the AirBoard 5VUSB pin.
   This allows littleBits to recharge continuously the AirBoard's internal battery.
   WARNING! DO NOT CONNECT THE AIRBOARD MICRO USB CONNECTOR AND THE POWER BIT AT THE SAME TIME.
-
-The littleBits 5V power line drives the AirBoard 5VUSB pin.
-This allows littleBits to recharge continuously the AirBoard's internal battery.
-WARNING! DO NOT CONNECT THE AIRBOARD MICRO USB CONNECTOR AND THE POWER BIT AT THE SAME TIME.
 
 The AirBoard is a thumb-size, Arduino-compatible, wireless, low-power,
 ubiquitous computer designed to sketch Internet-of-Things, fast!

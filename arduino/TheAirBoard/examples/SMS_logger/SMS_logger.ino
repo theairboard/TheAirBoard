@@ -1,5 +1,4 @@
 /*
-SMS logger
 GSM data logger based on the SODAQ GPRSbee SIM800H shield http://shop.sodaq.com/en/sodaq-gprsbee-rev6.html 
 - plug the light sensor between the A4 and GND pins
 - repeatedly read the light sensor from analog pin A4

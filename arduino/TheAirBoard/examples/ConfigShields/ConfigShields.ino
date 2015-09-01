@@ -1,5 +1,5 @@
 /*
-First shields configuration setup
+Wireless shields initial configuration
 1. upload this program to The AirBoard via the BLE-LINK shield
 2. replace the BLE-LINK shield by any blank XB24, XBP24, RN-42 or RN-XV shield
 3. run the program once to setup the working configuration

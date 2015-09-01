@@ -1,7 +1,8 @@
 /*
-Airship proportional control
-- use the smartphone internal G-sensor to pilot an Airship
-- connect micro motors to PINs 10, 11 and GND
+BrushBot proportional control with RemoteXY
+- use the smartphone internal G-sensor to pilot the BrushBot/Airship
+- order and populate the dual motor drive PCB for brushbot: http://oshpark.com/shared_projects/fyhMVHcY
+  or directly connect micro motors to PINs 10, 11 and GND for airship
 - watch: http://www.youtube.com/watch?v=gNQzRTcE6cM
 
 1. upload this program to The AirBoard via the BLE-LINK shield

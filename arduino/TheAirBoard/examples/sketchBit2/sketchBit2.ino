@@ -1,5 +1,6 @@
 /*
-sketchBit
+sketchBit smartphone control with RemoteXY
+- input bit is displayed on your smartphone and smartphone controls output bit
 - the sketchBit http://littlebits.cc/bitlab/bits/sketchbit is an input/output bit adapter
   that allows to control your littleBits modules from The AirBoard.
 - combine the flexibility of The AirBoard broad range of wireless shields

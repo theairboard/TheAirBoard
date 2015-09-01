@@ -1,5 +1,5 @@
 /*
-XBee Ultra Low Power Logger
+XBee ultra low power logger
 - plug the light sensor between the A4 and GND pins
 - configure the XBee shields (MASTER+SLAVE) at 57,600 bauds, using the ConfigShields program
 - turn on the micro switch just before uploading to make sure the wireless module power is on (5 seconds timeout after boot)

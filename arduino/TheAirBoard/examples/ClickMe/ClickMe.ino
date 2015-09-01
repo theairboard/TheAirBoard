@@ -1,5 +1,5 @@
 /*
-ClickMe
+Simple button with RemoteXY
 - switch ON the GREEN LED on "click me" button press
 - watch: http://www.youtube.com/watch?v=UtD5kPPm1xQ
 

@@ -1,8 +1,8 @@
 /*
-ChargeBattery
+Battery indicator
 - check battery voltage, USB voltage and charge status periodically
 - blink red/green while charging
-- solid green when discharging or when charged
+- solid green when charged or when discharging
 - solid red when battery low
 
 The AirBoard is a thumb-size, Arduino-compatible, wireless, low-power,
