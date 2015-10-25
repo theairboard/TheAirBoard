@@ -30,7 +30,7 @@ void setup() {
 
 // the loop routine runs over and over again forever:
 void loop() {
-    analogWrite(BLUE, 1);                           // set communication indicator
+    analogWrite(BLUE, 1);                            // set communication indicator
     sprintf(buffer, "AT$SS=%.2X", analogRead(A4)/4); // acquire and format analog data
     Serial.println(buffer);                          // send message
     delay(6000);                                     // wait until end of transmission

@@ -27,7 +27,7 @@ void setup() {
   pinMode(RIGHT, OUTPUT);
   digitalWrite(RIGHT, 0);       // reset motor
   analogWrite(GREEN, 1);        // ON indicator
-  Serial.begin(9600);           // initialize serial communication at 9600 bits per second
+  Serial.begin(115200);         // initialize serial communication at 115200 bits per second
 }
 
 // the loop routine runs over and over again forever:
