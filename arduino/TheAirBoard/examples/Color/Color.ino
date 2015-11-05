@@ -28,17 +28,17 @@ void setup() {
   pinMode(GREEN, OUTPUT);       // initialize the GREEN LED pin as an output
   pinMode(BLUE, OUTPUT);        // initialize the BLUE LED pin as an output
   analogWrite(GREEN, 1);        // switch ON indicator at low power 
-  Serial.begin(115200);         // initialize serial communication at 115200 bits per second
+  Serial.begin(115200);         // initialize serial communication at 115200 bauds for BLE, 9600 bauds for Bluetooth 2
 }
 
 // the loop routine runs over and over again forever:
 void loop() { 
   while(Serial.available()) {
     switch(Serial.read()) {
-      case 'a': // white
+      case 'l': // white
         digitalWrite(RED, 1); digitalWrite(GREEN, 1); digitalWrite(BLUE, 1);
         break;
-      case 'b': // yellow
+      case 'm': // yellow
         digitalWrite(RED, 1); digitalWrite(GREEN, 1); digitalWrite(BLUE, 0);
         break;
       case 'c': // magenta

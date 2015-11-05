@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">tAB - COLOR</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+
+    <string name="title_connected">Connected</string>
+    <string name="title_connecting">Connecting...</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_scanning">Scanning for devices...</string>
+    <string name="title_not_connected">You are not connected to a device</string>
+    
+    <!-- Options Menu -->
+    <string name="discoverable">Make discoverable</string>
+    <string name="button_scan">Scan for devices</string>
+
+</resources>
