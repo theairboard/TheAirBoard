@@ -6,7 +6,7 @@ BrushBot direct control
 - watch: http://www.youtube.com/watch?v=gNQzRTcE6cM
 
 1. Install tAB-Direction.apk on Bluetooth 4.0 BLE Android devices:
-   http://github.com/theairboard/TheAirBoard/raw/master/arduino/TheAirBoard/examples/BrushBot/tAB-Direction.apk
+   http://github.com/theairboard/TheAirBoard/raw/master/arduino/TheAirBoard/examples/BrushBot1/tAB-Direction.apk
 2. Search and connect "Bluno" device
 
 The AirBoard is a thumb-size, Arduino-compatible, wireless, low-power,
