@@ -35,10 +35,10 @@ void setup() {
 void loop() { 
   while(Serial.available()) {
     switch(Serial.read()) {
-      case 'l': // white
+      case 'a': // white
         digitalWrite(RED, 1); digitalWrite(GREEN, 1); digitalWrite(BLUE, 1);
         break;
-      case 'm': // yellow
+      case 'b': // yellow
         digitalWrite(RED, 1); digitalWrite(GREEN, 1); digitalWrite(BLUE, 0);
         break;
       case 'c': // magenta
