@@ -1,9 +1,7 @@
 /*
 LoRa logger program based on the Multitech MultiConnect® mDot™ LoRaWAN™ module
 http://www.multitech.com/brands/multiconnect-mdot
-- plug the light sensor between the A4 and GND pins
-- repeatedly read the light sensor from analog pin A4
-- send the value to the LoRa network every 10 seconds
+- send a message to the LoRa network every 10 seconds
    
 1. upload this program to The AirBoard via the BLE-LINK shield
 2. replace the BLE-LINK shield by the LoRa shield
