@@ -1,9 +1,7 @@
 TheAirBoard: sketch everyware
 =============================================
 [www.theairboard.cc](http://www.theairboard.cc)<br>
-[Pre-order now](http://sales.theairboard.cc)
-
-![The AirBoard product](http://www.theairboard.cc/wp-content/uploads/2015/11/airboard_2560_cut2x.jpg)
+[pre-order now](http://sales.theairboard.cc)
 
 Summary
 -------
