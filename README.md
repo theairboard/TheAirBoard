@@ -1,12 +1,9 @@
-TheAirBoard: Sketch Internet-of-Things, fast!
+TheAirBoard: sketch everyware
 =============================================
 [www.theairboard.cc](http://www.theairboard.cc)<br>
-[facebook](https://www.facebook.com/theairboard)<br>
-[@theairboard](https://twitter.com/theairboard)<br>
 [Pre-order now](http://sales.theairboard.cc)
 
 ![The AirBoard product](http://www.theairboard.cc/wp-content/uploads/2015/11/airboard_2560_cut2x.jpg)
-![The AirBoard product](http://www.theairboard.cc/wp-content/uploads/2014/12/theairboard_960x540.jpg)
 
 Summary
 -------
