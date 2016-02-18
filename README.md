@@ -4,28 +4,28 @@
 
 Summary
 -------
-The AirBoard is a wireless, modular and ultra low-power Arduino prototyping platform for the Internet of Things, designed to explore, hack and deploy your killer idea in the field.
-
 ![The AirBoard pinout](http://www.theairboard.cc/wp-content/uploads/2015/11/pinout1.png)
 
-Note: The AirBoard comes with a UL1642, CB/IEC62133, UN38.3 fully certified built-in battery.
+The AirBoard is a wireless, modular and ultra low-power Arduino prototyping platform for the Internet of Things, designed to explore, hack and deploy your killer idea in the field.
 
-Note: The AirBoard has been designed to be wirelessly reprogrammable. The microUSB connector is used for battery charging only. To upload a new program, you will need additional wireless shields such as XBee or BLE and their associated USB dongle, or an external serial connection over FTDI.
+<i>Note:</i> The AirBoard comes with a UL1642, CB/IEC62133, UN38.3 fully certified built-in battery.
+
+<b>Note:</b> The AirBoard has been designed to be wirelessly reprogrammable. The microUSB connector is used for battery charging only. To upload a new program, you will need additional wireless shields such as XBee or BLE and their associated USB dongle, or an external serial connection over FTDI.
 
 Features
 -----------
 Go wireless
-Explore the hotest wireless technologies today: with its popular Bee form factor, the AirBoard features a socket for XBee, Bluetooth, BLE and WiFi wireless shields, as well as the recent GSM/GPRS, SIGFOX and LoRa WAN long range IoT modules. Simply swap the radio for instant communication and WPAN Over-The-Air Programming.
+Explore the hotest wireless technologies today: with its popular Bee form factor, the AirBoard features a socket for XBee, Bluetooth, BLE and WiFi wireless shields, as well as the recent GSM/GPRS, SIGFOX and LoRa WAN long range IoT modules. Simply swap the radio for instant communication and WPAN Over-The-Air Programming.<br>
 Iterate quickly
-The AirBoard was designed with productivity in mind. Design and iterate quickly with the built-in open solderless breadboard. Only Arduino’s most popular I/Os are exposed, in order to lower the cognitive barrier and encourage the highest experiment turnover. Snap in hundreds of sensors and experiment a whole library of interactions in just seconds.
+The AirBoard was designed with productivity in mind. Design and iterate quickly with the built-in open solderless breadboard. Only Arduino’s most popular I/Os are exposed, in order to lower the cognitive barrier and encourage the highest experiment turnover. Snap in hundreds of sensors and experiment a whole library of interactions in just seconds.<br>
 Deploy your device in the field
-Beyond the Internet of Things, ubiquitous devices require efficient Power and Data Management strategies to become truly autonomous.
+Beyond the Internet of Things, ubiquitous devices require efficient Power and Data Management strategies to become truly autonomous.<br>
 Ultra Power Efficient
-Forget about your sensors with the built-in battery and Power Management System. The AirBoard is designed for ultra low-power applications, yet capable to drive long range wireless shields. It offers an ultra-low power sleep mode with switchable radio for most efficient communication strategy.
+Forget about your sensors with the built-in battery and Power Management System. The AirBoard is designed for ultra low-power applications, yet capable to drive long range wireless shields. It offers an ultra-low power sleep mode with switchable radio for most efficient communication strategy.<br>
 Your first sketch in seconds
-Start programming straight from the box with this superb web IDE by codebender. All required libraries and quick start source codes have been installed already. And with the pre-loaded Arduino Fio bootloader, you can also use the Arduino IDE. So why don’t you wait and start sketching now!
+Start programming straight from the box with this superb web IDE by codebender. All required libraries and quick start source codes have been installed already. And with the pre-loaded Arduino Fio bootloader, you can also use the Arduino IDE. So why don’t you wait and start sketching now!<br>
 Make your own App
-It’s no longer needed to be an expert in programming to build pretty AND functional Graphical User Interfaces. Have fun interacting with your tangible hardware right away! Just drag and drop a whole library of widgets to build your own mobile app. remotexy and Blynk work seamlessly with the AirBoard and are great examples of bringing rapid prototyping to everyone.
+It’s no longer needed to be an expert in programming to build pretty AND functional Graphical User Interfaces. Have fun interacting with your tangible hardware right away! Just drag and drop a whole library of widgets to build your own mobile app. remotexy and Blynk work seamlessly with the AirBoard and are great examples of bringing rapid prototyping to everyone.<br>
 
 Specification
 -------------
