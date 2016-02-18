@@ -7,7 +7,7 @@ Summary
 -------
 The AirBoard is a wireless, modular and ultra low-power Arduino prototyping platform for the Internet of Things, designed to explore, hack and deploy your killer idea in the field.
 
-<b>Note:</b> The AirBoard comes with a UL1642, CB/IEC62133, UN38.3 fully certified built-in battery.
+<b>Note:</b> The AirBoard is CE certified and comes with a UL1642, CB/IEC62133, UN38.3 fully certified built-in battery.
 
 <b>Note:</b> The AirBoard has been designed to be wirelessly reprogrammable. The microUSB connector is used for battery charging only. To upload a new program, you will need additional wireless shields such as XBee or BLE and their associated USB dongle, or an external serial connection over FTDI.
 
