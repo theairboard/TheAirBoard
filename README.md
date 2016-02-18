@@ -13,17 +13,17 @@ The AirBoard is a wireless, modular and ultra low-power Arduino prototyping plat
 
 Features
 -----------
-<b>Go wireless</b>
+<b>Go wireless</b><br>
 Explore the hotest wireless technologies today: with its popular Bee form factor, the AirBoard features a socket for XBee, Bluetooth, BLE and WiFi wireless shields, as well as the recent GSM/GPRS, SIGFOX and LoRa WAN long range IoT modules. Simply swap the radio for instant communication and WPAN Over-The-Air Programming.<br>
-<b>Iterate quickly</b>
+<b>Iterate quickly</b><br>
 The AirBoard was designed with productivity in mind. Design and iterate quickly with the built-in open solderless breadboard. Only Arduino’s most popular I/Os are exposed, in order to lower the cognitive barrier and encourage the highest experiment turnover. Snap in hundreds of sensors and experiment a whole library of interactions in just seconds.<br>
-<b>Deploy your device in the field</b>
+<b>Deploy your device in the field</b><br>
 Beyond the Internet of Things, ubiquitous devices require efficient Power and Data Management strategies to become truly autonomous.<br>
-<b>Ultra Power Efficient</b>
+<b>Ultra Power Efficient</b><br>
 Forget about your sensors with the built-in battery and Power Management System. The AirBoard is designed for ultra low-power applications, yet capable to drive long range wireless shields. It offers an ultra-low power sleep mode with switchable radio for most efficient communication strategy.<br>
-<b>Your first sketch in seconds</b>
+<b>Your first sketch in seconds</b><br>
 Start programming straight from the box with this superb web IDE by codebender. All required libraries and quick start source codes have been installed already. And with the pre-loaded Arduino Fio bootloader, you can also use the Arduino IDE. So why don’t you wait and start sketching now!<br>
-<b>Make your own App</b>
+<b>Make your own App</b><br>
 It’s no longer needed to be an expert in programming to build pretty AND functional Graphical User Interfaces. Have fun interacting with your tangible hardware right away! Just drag and drop a whole library of widgets to build your own mobile app. remotexy and Blynk work seamlessly with the AirBoard and are great examples of bringing rapid prototyping to everyone.<br>
 
 Specification
