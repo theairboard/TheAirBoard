@@ -1,5 +1,7 @@
 /*******************************************************************************
 This is The AirBoard utility library.
+Revision 2.0
+- added 1ms delay to allow MCU to recover from sleep
 
 The AirBoard is a thumb-size, Arduino-compatible, wireless, low-power,
 ubiquitous computer designed to sketch Internet-of-Things, fast!
@@ -43,6 +45,7 @@ void TheAirBoard::powerDown() {
   ADCSRA |= B10000000;             // enable ADC
   UBRR0H = br_high;                // set baud rate MSB
   UBRR0L = br_low;                 // set baud rate LSB
+  delay(1);						   // allow MCU to recover from sleep
   UCSR0B |= (1<<RXCIE0)|(1<<UDRIE0)|(1<<RXEN0)|(1<<TXEN0); // enable uart
 }
 
