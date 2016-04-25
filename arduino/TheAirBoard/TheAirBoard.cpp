@@ -1,7 +1,9 @@
 /*******************************************************************************
 This is The AirBoard utility library.
-Revision 2.0
-- added 1ms delay to allow MCU to recover from sleep
+Revision 2.0, April 09, 2016
+- in powerDown function, added 1ms delay to allow MCU to recover from sleep
+Revision 2.1, April 25, 2016
+- in configRN42 function, doubled delay between commands
 
 The AirBoard is a thumb-size, Arduino-compatible, wireless, low-power,
 ubiquitous computer designed to sketch Internet-of-Things, fast!
@@ -141,14 +143,14 @@ float TheAirBoard::batteryChk(void) {
  *******************************************************************************/
  void TheAirBoard::configRN42() {
   	Serial.begin(115200); 
-  	Serial.print("$$$"); delay(20);
-  	Serial.println("su,96"); delay(20);
-  	Serial.println("si,0012"); delay(20);
-  	Serial.println("sj,0500"); delay(20);
-  	Serial.println("sw,0030"); delay(20);
-  	Serial.println("sh,0000"); delay(20);
-  	Serial.println("s~,3"); delay(20);
-  	Serial.println("r,1"); delay(20);
+  	Serial.print("$$$"); delay(40);
+  	Serial.println("su,96"); delay(40);
+  	Serial.println("si,0012"); delay(40);
+  	Serial.println("sj,0500"); delay(40);
+  	Serial.println("sw,0030"); delay(40);
+  	Serial.println("sh,0000"); delay(40);
+  	Serial.println("s~,3"); delay(40);
+  	Serial.println("r,1"); delay(40);
   	Serial.end();
   	delay(100);
 }
