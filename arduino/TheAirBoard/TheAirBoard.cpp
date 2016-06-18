@@ -4,6 +4,9 @@ Revision 2.0, April 09, 2016
 - in powerDown function, added 1ms delay to allow MCU to recover from sleep
 Revision 2.1, April 25, 2016
 - in configRN42 function, doubled delay between commands
+Revision 2.2, June 18, 2016
+- in powerDown function, changed baudrate restoration method upon recover from sleep
+- added getTemp function to return internal MCU temperature in °C
 
 The AirBoard is a thumb-size, Arduino-compatible, wireless, low-power,
 ubiquitous computer designed to sketch Internet-of-Things, fast!
@@ -31,8 +34,8 @@ TheAirBoard::TheAirBoard(void) {
  * regulators quiescent currents = 30 nA
  *******************************************************************************/
 void TheAirBoard::powerDown() {
-  byte br_high = UBRR0H, br_low = UBRR0L; // save baudrate register 
-  Serial.end();
+  Serial.flush();				   // flush uart
+  Serial.end();					   // end communication
   digitalWrite(RX, LOW);           // reset internal pull-up serial link
   ADCSRA &= B01111111;             // disable ADC
   power_all_disable();
@@ -45,10 +48,7 @@ void TheAirBoard::powerDown() {
   /****************************************************************************/
   power_all_enable();
   ADCSRA |= B10000000;             // enable ADC
-  UBRR0H = br_high;                // set baud rate MSB
-  UBRR0L = br_low;                 // set baud rate LSB
-  delay(1);						   // allow MCU to recover from sleep
-  UCSR0B |= (1<<RXCIE0)|(1<<UDRIE0)|(1<<RXEN0)|(1<<TXEN0); // enable uart
+  Serial.begin(U2X0?1000000/((UBRR0H<<8)+UBRR0L+1):500000/((UBRR0H<<8)+UBRR0L+1)); // restart uart with initial baudrate
 }
 
 /*******************************************************************************
@@ -181,5 +181,39 @@ void TheAirBoard::configWiFly() {
   	delay(50);
   	Serial.end();
   	delay(1000);
+}
+
+/*******************************************************************************
+ * Get temperature
+ * - get internal temperature in °C
+ *******************************************************************************/
+double TheAirBoard::getTemp(void) {
+  unsigned int wADC;
+  double t;
+
+  // The internal temperature has to be used
+  // with the internal reference of 1.1V.
+  // Channel 8 can not be selected with
+  // the analogRead function yet.
+
+  // Set the internal reference and mux.
+  ADMUX = (_BV(REFS1) | _BV(REFS0) | _BV(MUX3));
+  ADCSRA |= _BV(ADEN);  // enable the ADC
+
+  delay(20);            // wait for voltages to become stable.
+
+  ADCSRA |= _BV(ADSC);  // Start the ADC
+
+  // Detect end-of-conversion
+  while (bit_is_set(ADCSRA,ADSC));
+
+  // Reading register "ADCW" takes care of how to read ADCL and ADCH.
+  wADC = ADCW;
+
+  // The offset of 324.31 could be wrong. It is just an indication.
+  t = (wADC - 324.31 ) / 1.22;
+
+  // The returned temperature is in degrees Celsius.
+  return (t);
 }
 			
