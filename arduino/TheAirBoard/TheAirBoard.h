@@ -1,5 +1,7 @@
 /*******************************************************************************
 This is The AirBoard utility library.
+Revision 2.2, June 18, 2016
+- added getTemp function to return internal MCU temperature in °C
 
 The AirBoard is a thumb-size, Arduino-compatible, wireless, low-power,
 ubiquitous computer designed to sketch Internet-of-Things, fast!
@@ -49,6 +51,7 @@ class TheAirBoard
 	void configXBee(boolean role);
 	void configRN42();
 	void configWiFly();
+	double getTemp(void);
 };
 
 #endif
