@@ -26,8 +26,9 @@ void setup() {
   pinMode(BLUE, OUTPUT);                             // initialize the BLUE LED pin as an output
   digitalWrite(A4, HIGH);                            // set internal pull-up for light sensor
   Serial.begin(19200);                                // initialize serial communication at 19200 bits per second
+  delay(2000); 
   Serial.print("+++");
-  delay(1000); 
+  delay(10); 
 }
 
 // the loop routine runs over and over again forever:
