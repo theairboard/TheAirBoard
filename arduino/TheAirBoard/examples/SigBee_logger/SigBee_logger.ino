@@ -12,7 +12,6 @@ SIGFOX logger program based on the Atim SigBee module
 The AirBoard is a thumb-size, Arduino-compatible, wireless, low-power,
 ubiquitous computer designed to sketch Internet-of-Things, fast!
 Visit http://www.theairboard.cc
-Upload your first sketch in seconds from https://codebender.cc?referral_code=Ub56L825Qb
 Check README.txt and license.txt for more information.
 All text above must be included in any redistribution.
 */
@@ -28,13 +27,14 @@ void setup() {
   Serial.begin(19200);                                // initialize serial communication at 19200 bits per second
   delay(2000); 
   Serial.print("+++");
-  delay(10); 
+  delay(5000); 
 }
 
 // the loop routine runs over and over again forever:
 void loop() {
     analogWrite(BLUE, 1);                            // set communication indicator
-    sprintf(buffer, "AT$SF=%.2X", analogRead(A4)/4); // acquire and format analog data
+    //sprintf(buffer, "AT$SF=%.2X", analogRead(A4)/4); // acquire and format analog data (SigBee Rev 57E4)
+    sprintf(buffer, "AT$SF=%.2X,0", analogRead(A4)/4); // acquire and format analog data (SigBee Rev 5836)
     Serial.println(buffer);                          // send message
     delay(6000);                                     // wait until end of transmission
     digitalWrite(BLUE, 0);                           // reset communication indicator
