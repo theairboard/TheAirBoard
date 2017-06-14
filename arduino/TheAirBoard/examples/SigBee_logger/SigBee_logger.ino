@@ -18,7 +18,7 @@ All text above must be included in any redistribution.
 
 #define BLUE	  6                                  // The Airboard BLUE LED
 
-char buffer[9];
+char buffer[20];
 
 // the setup routine runs once when you switch on the board:
 void setup() {
