@@ -1,6 +1,6 @@
 [The AirBoard: sketch everyware](http://www.theairboard.cc)
 =============================================
-[pre-order now](http://sales.theairboard.cc)
+[order yours now](http://sales.theairboard.cc)
 ![The AirBoard pinout](http://www.theairboard.cc/wp-content/uploads/2015/11/pinout1.png)
 
 Summary
